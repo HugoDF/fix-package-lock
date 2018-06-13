@@ -1,0 +1,31 @@
+{
+  "name": "fix-package-lock",
+  "version": "0.0.0",
+  "description": "Fix package-lock by regenerating it",
+  "main": "./fix-package-lock.js",
+  "bin": {
+    "fix-package-lock": "./fix-package-lock.js"
+  },
+  "scripts": {
+    "test": "echo \"Skip tests :D\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/fix-package-lock.git"
+  },
+  "keywords": [
+    "package-lock",
+    "merge-conflicts"
+  ],
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HugoDF/fix-package-lock/issues"
+  },
+  "homepage": "https://github.com/HugoDF/fix-package-lock#readme",
+  "dependencies": {
+    "execa": "^0.10.0",
+    "listr": "^0.14.1",
+    "rimraf": "^2.6.2"
+  }
+}
