@@ -1,6 +1,6 @@
 {
   "name": "fix-package-lock",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Fix package-lock by regenerating it",
   "main": "./fix-package-lock.js",
   "bin": {
