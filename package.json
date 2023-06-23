@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/HugoDF/fix-package-lock#readme",
   "dependencies": {
-    "execa": "^0.10.0",
+    "execa": "^7.1.1",
     "listr": "^0.14.1",
     "rimraf": "^2.6.2"
   }
